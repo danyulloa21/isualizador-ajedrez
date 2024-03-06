@@ -1,0 +1,90 @@
+.container {
+    display: flex; /* Utilizamos flexbox para el diseño de dos columnas */
+    justify-content: space-between; /* Distribuye los elementos uniformemente en las columnas */
+}
+
+.juego {
+    flex: 1; /* La sección "juego" ocupará todo el espacio restante */
+}
+
+.menu {
+    margin-top: 60px;
+    width: 580px; /* Ancho fijo para la sección "menú" */
+}
+
+table {
+    border-collapse: collapse;
+    /*definimos el color de la linea*/
+    border: 1px solid black;
+    border-top: none;
+    border: none;
+    display: inline;
+}
+
+tr {
+    height: 70px;
+}
+
+td {
+    border: 1px solid black;
+    width: 70px;
+}
+
+tr:nth-child(even) td:nth-child(even),
+tr:nth-child(odd) td:nth-child(odd) {
+    background: #8B4513;
+}
+
+
+
+tr:nth-child(odd) td:nth-child(even),
+tr:nth-child(even) td:nth-child(odd) {
+    background: #D2B48C;
+}
+
+table tr:first-child td {
+    background-color: rgb(255, 255, 255) !important ;
+    border: none;
+    border-left: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+
+table td:last-child tr{
+    background-color: rgb(255, 255, 255) !important ;
+    border: none;
+    border-left: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+table td:last-child  {
+    background: #ffffff !important ;
+    border: none;
+    border-left: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+div{
+    display: inline;
+}
+
+select{
+    right: 100px;
+    font-size: 1.5em;
+}
+
+textarea{
+    left: 700px;
+    position: absolute;
+    margin-top: 80px;
+    font-size: 2em;
+    resize: none;
+    width: 400px;
+    height: 400px;
+}
