@@ -1,6 +1,6 @@
 var i = 0; j = 0;
 var tokens = "", paso = 0 , turno = false, fin = false;
-var texto = "", tiempo = 1000;
+var texto = "", tiempo = 1500;
 
 function iniciar() {
   var celdas = document.getElementById("Tablero");
@@ -301,9 +301,9 @@ function actualizarTablero(tabla, casilla, pieza, turno, enrq, movimiento) {
   for(var i = 0; i < 8; i++){
     for(var j = 1; j < 9; j++){
       if ((i + j) % 2 === 0) {
-          tabla.rows[j].cells[i].style.backgroundColor = "#6699CC"; 
+          tabla.rows[j].cells[i].style.backgroundColor = "#66cc6d67"; 
       } else {
-          tabla.rows[j].cells[i].style.backgroundColor = "#87CEEB"; 
+          tabla.rows[j].cells[i].style.backgroundColor = "#66cc6db9"; 
       }
     }
   }

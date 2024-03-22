@@ -114,19 +114,18 @@
         </div>
 
         <div class="menu">
-            
+            <p id="turno">Seleccione una partida de ajedrez</p>
             <select id="Combo" onchange="partidas()">
                 <option value="0">Seleccionar</option>
                 <option value="1">Partida 1</option>
                 <option value="2">Partida 2</option>
                 <option value="3">Partida 3</option>
             </select>
-            <p id="turno">Seleccione una partida de ajedrez</p>
             <br></br>
-            <textarea id="texto" rows="30"></textarea>
             <button id="siguiente" onclick="pasoApaso()">Paso a paso</button>
             <button onclick="pasosCompleto()">Completo</button>
             <input class="button3" type="file" name="Cargar partida" id="cargarBoton" onchange="cargarPartida()">
+            <textarea id="texto" rows="30"></textarea>
             
         </div>
     </div>
