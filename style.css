@@ -8,6 +8,7 @@
 }
 
 .menu {
+    flex: 0;
     margin-top: 60px;
     width: 580px; 
 }
@@ -57,14 +58,14 @@ td {
 
 tr:nth-child(even) td:nth-child(even),
 tr:nth-child(odd) td:nth-child(odd) {
-    background: #6699CC;
+    background: #66cc6d67;
 }
 
 
 
 tr:nth-child(odd) td:nth-child(even),
 tr:nth-child(even) td:nth-child(odd) {
-    background: #87CEEB;
+    background: #66cc6db9;
 }
 
 table tr:first-child td {

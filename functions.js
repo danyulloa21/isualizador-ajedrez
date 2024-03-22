@@ -277,6 +277,8 @@ function pasoApaso() {
 }
 
 function pasosCompleto() {
+  // Desactivar boton de siguiente paso
+  document.getElementById("siguiente").disabled = true;
   setTimeout(function() {
     if (!fin) {
         pasoApaso();

@@ -1,3 +1,3 @@
 Números asignados
-3. Cambiar de color la última jugada. 
-11. Notificar Jaquemate. 
+8.  Si se está en modo completo bloquear paso a paso hasta reiniciar.  
+12. Animación al mover la pieza sugerencia CSS. 
